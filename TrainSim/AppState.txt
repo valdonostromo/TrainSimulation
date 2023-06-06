@@ -1,0 +1,38 @@
+Locomotive{maxWagons=6, thrust=823206, maxGridCapacity=1, speed=160, ID=200, name='PKP', currentStation='Gliwice', destination='Wodzisław Śląski'}
+Locomotive{maxWagons=6, thrust=823206, maxGridCapacity=1, speed=153, ID=200, name='PKP', currentStation='Gliwice', destination='Wodzisław Śląski'}
+Locomotive{maxWagons=7, thrust=324131, maxGridCapacity=1, speed=137, ID=201, name='PKP', currentStation='Nowa Sól', destination='Ostrołęka'}
+PassengerWagon{sender='PKP', weight=20000, ID=112 seatingCapacity=90}
+Locomotive{maxWagons=7, thrust=521699, maxGridCapacity=1, speed=125, ID=200, name='PKP', currentStation='Krosno Odrzańskie', destination='Augustów'}
+PassengerWagon{sender='PKP', weight=20000, ID=112 seatingCapacity=90}
+sender='Poczta Polska', weight=25000, ID=102
+Locomotive{maxWagons=6, thrust=394906, maxGridCapacity=1, speed=180, ID=200, name='PKP', currentStation='Płock', destination='Mikołów'}
+Locomotive{maxWagons=8, thrust=743487, maxGridCapacity=2, speed=98, ID=201, name='PKP', currentStation='Świecie', destination='Opole'}
+PassengerWagon{sender='PKP', weight=20000, ID=112 seatingCapacity=90}
+MailWagon{sender='Poczta Polska', weight=15000, ID=113 mailCapacity=2000}
+GasMaterialsWagon{BasicFreightWagon{sender='Poczta Polska', weight=20000, ID=114 capacity=10000, loadType='null'}weight=20000, pressure=0}
+Locomotive{maxWagons=8, thrust=743487, maxGridCapacity=2, speed=107, ID=201, name='PKP', currentStation='Świecie', destination='Opole'}
+PassengerWagon{sender='PKP', weight=20000, ID=112 seatingCapacity=90}
+MailWagon{sender='Poczta Polska', weight=15000, ID=113 mailCapacity=2000}
+GasMaterialsWagon{BasicFreightWagon{sender='Poczta Polska', weight=20000, ID=114 capacity=10000, loadType='null'}weight=20000, pressure=0}
+Locomotive{maxWagons=5, thrust=481026, maxGridCapacity=2, speed=165, ID=202, name='PKP', currentStation='Nowy Sącz', destination='Olsztyn'}
+Locomotive{maxWagons=5, thrust=617408, maxGridCapacity=1, speed=163, ID=200, name='PKP', currentStation='Złotoryja', destination='Zakopane'}
+ExplosivesWagon{HeavyFreightWagon{sender='Poczta Polska', weight=30000, ID=112 capacity=20000, loadType='null'}weight=35000, numberOfDrunkEmplees=1, explosivesList=[], explosive='null'}
+Locomotive{maxWagons=8, thrust=448586, maxGridCapacity=1, speed=187, ID=200, name='PKP', currentStation='Złotoryja', destination='Wałbrzych'}
+PassengerWagon{sender='PKP', weight=20000, ID=112 seatingCapacity=90}
+LiquidMaterialWagon{BasicFreightWagon{sender='Poczta Polska', weight=20000, ID=113 capacity=10000, loadType='null'}weight=30000, capacity=10000, liquidType='null'}
+Locomotive{maxWagons=8, thrust=451820, maxGridCapacity=1, speed=79, ID=200, name='PKP', currentStation='Krosno Odrzańskie', destination='Zabrze'}
+RefigeratedWagon{BasicFreightWagon{sender='Poczta Polska', weight=20000, ID=112 capacity=10000, loadType='null'} temperature=-49}
+Locomotive{maxWagons=5, thrust=336177, maxGridCapacity=1, speed=97, ID=200, name='PKP', currentStation='Żywiec', destination='Wałbrzych'}
+PassengerWagon{sender='PKP', weight=20000, ID=112 seatingCapacity=90}
+LiquidMaterialWagon{BasicFreightWagon{sender='Poczta Polska', weight=20000, ID=113 capacity=10000, loadType='null'}weight=30000, capacity=10000, liquidType='null'}
+Locomotive{maxWagons=5, thrust=727338, maxGridCapacity=1, speed=163, ID=200, name='PKP', currentStation='Białystok', destination='Suwałki'}
+LiquidMaterialWagon{BasicFreightWagon{sender='Poczta Polska', weight=20000, ID=112 capacity=10000, loadType='null'}weight=40000, capacity=10000}
+Locomotive{maxWagons=7, thrust=612829, maxGridCapacity=2, speed=192, ID=200, name='PKP', currentStation='Tarnobrzeg', destination='Skierniewice'}
+RefigeratedWagon{BasicFreightWagon{sender='Poczta Polska', weight=20000, ID=112 capacity=10000 temperature=-5}
+LiquidMaterialWagon{BasicFreightWagon{sender='Poczta Polska', weight=20000, ID=113 capacity=10000weight=40000, capacity=10000, liquidType='Benzine'}
+Locomotive{maxWagons=5, thrust=950074, maxGridCapacity=2, speed=252, ID=200, name='PKP', currentStation='Białystok', destination='Giżycko'}
+PassengerWagon{sender='PKP', weight=20000, ID=112 seatingCapacity=90}
+DiningWagon{sender='Poczta Polska', weight=30000, ID=113foodItems=10}
+LiquidMaterialWagon{BasicFreightWagon{sender='Poczta Polska', weight=20000, ID=114weight=40000, capacity=10000, liquidType='Benzine'}
+Locomotive{maxWagons=6, thrust=136712, maxGridCapacity=1, speed=150, ID=201, name='PKP', currentStation='Kędzierzyn-Koźle', destination='Ruda Śląska'}
+HeavyFreightWagon{sender='Poczta Polska', weight=30000, ID=115 capacity=20000, loadType='null'}
